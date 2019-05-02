@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spring-aop-4.3.2.RELEASE-javadoc">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/JavaMailSender/web/WEB-INF/lib/spring-aop-4.3.2.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

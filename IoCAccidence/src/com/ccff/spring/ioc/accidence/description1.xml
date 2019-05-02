@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<bean id="source" class="com.ccff.spring.ioc.accidence.Source">
+    <property name="fruit" value="橙汁" />
+    <property name="sugar" value="少糖" />
+    <property name="size" value="大杯" />
+</bean>
+
+<bean id="juiceMaker2" class="com.ccff.spring.ioc.accidence.JuiceMaker2">
+    <property name="beverageShop" value="鲜果时间" />
+    <property name="source" ref="source" />
+</bean>

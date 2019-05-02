@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-4.0.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-4.0.xsd">
+
+    <bean id="xmlRoleAspect" class="com.ccff.spring.xml.aop.aspect.XMLRoleAspect" />
+    <bean id="roleService" class="com.ccff.spring.xml.aop.service.RoleServiceImpl" />
+
+    <aop:config>
+        <!--引用XMLRoleAspect作为切面类-->
+        <aop:aspect ref="xmlRoleAspect">
+            <!--定义切点-->
+            <aop:pointcut id="printRole" expression="execution(* com.ccff.spring.xml.aop.service.RoleServiceImpl.printRole(..))" />
+            <!--定义通知-->
+            <aop:before method="before" pointcut="execution(* com.ccff.spring.xml.aop.service.RoleServiceImpl.printRole(..)) and args(role)" />
+            <aop:after method="after" pointcut-ref="printRole" />
+            <aop:around method="around" pointcut-ref="printRole" />
+            <aop:after-throwing method="afterThrowing" pointcut-ref="printRole" />
+            <aop:after-returning method="afterReturning" pointcut-ref="printRole" />
+            <!--通过XML引入新功能，对目标类进行加强-->
+            <aop:declare-parents types-matching="com.ccff.spring.xml.aop.service.RoleServiceImpl+" implement-interface="com.ccff.spring.xml.aop.verifier.RoleVerifier" default-impl="com.ccff.spring.xml.aop.verifier.RoleVerifierImpl" />
+        </aop:aspect>
+    </aop:config>
+
+</beans>

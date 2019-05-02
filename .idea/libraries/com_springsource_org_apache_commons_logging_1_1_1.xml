@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.springsource.org.apache.commons.logging-1.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SpringEnvironmentFoundation/lib/com.springsource.org.apache.commons.logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SpringEnvironmentFoundation/lib/com.springsource.org.apache.log4j-1.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SpringEnvironmentFoundation/lib/junit-4.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

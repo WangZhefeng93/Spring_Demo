@@ -1,0 +1,50 @@
+<component name="libraryTable">
+  <library name="aopalliance-1.0 (2)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/asm-3.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/cglib-2.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/com.springsource.org.apache.commons.logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/com.springsource.org.apache.log4j-1.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/commons-dbcp2-2.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/commons-pool2-2.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/commons-pool-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/ehcache-core-2.6.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/javassist-3.17.1-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/jsqlparser-0.9.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/log4j-api-2.0-rc1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/log4j-core-2.0-rc1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/mybatis-3.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/mybatis-ehcache-1.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/mybatis-generator-core-1.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/mysql-connector-java-5.0.3-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/pagehelper-5.1.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/slf4j-api-1.7.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/slf4j-log4j12-1.7.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/spring-aop-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/spring-aspects-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/spring-beans-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/spring-context-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/spring-context-support-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/spring-core-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/spring-expression-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/spring-instrument-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/spring-jdbc-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/spring-jms-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/spring-messaging-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/spring-orm-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/spring-oxm-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/spring-test-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/spring-tx-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AOPBasicConcept/lib/sqljdbc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

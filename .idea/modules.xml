@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AOPBasicConcept/AOPBasicConcept.iml" filepath="$PROJECT_DIR$/AOPBasicConcept/AOPBasicConcept.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AOPExampleGame/AOPExampleGame.iml" filepath="$PROJECT_DIR$/AOPExampleGame/AOPExampleGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdvancedAssembling/AdvancedAssembling.iml" filepath="$PROJECT_DIR$/AdvancedAssembling/AdvancedAssembling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AspectJ/AspectJ.iml" filepath="$PROJECT_DIR$/AspectJ/AspectJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BeanAssembling/BeanAssembling.iml" filepath="$PROJECT_DIR$/BeanAssembling/BeanAssembling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClassifyAOP/ClassifyAOP.iml" filepath="$PROJECT_DIR$/ClassifyAOP/ClassifyAOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IoCAccidence/IoCAccidence.iml" filepath="$PROJECT_DIR$/IoCAccidence/IoCAccidence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaMailSender/JavaMailSender.iml" filepath="$PROJECT_DIR$/JavaMailSender/JavaMailSender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringEnvironmentFoundation/SpringDIWays.iml" filepath="$PROJECT_DIR$/SpringEnvironmentFoundation/SpringDIWays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMyBatis/SpringMyBatis.iml" filepath="$PROJECT_DIR$/SpringMyBatis/SpringMyBatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringReview/SpringReview.iml" filepath="$PROJECT_DIR$/SpringReview/SpringReview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Demo.iml" filepath="$PROJECT_DIR$/Spring_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Transaction/Transaction.iml" filepath="$PROJECT_DIR$/Transaction/Transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XMLForAOP/XMLForAOP.iml" filepath="$PROJECT_DIR$/XMLForAOP/XMLForAOP.iml" />
+    </modules>
+  </component>
+</project>

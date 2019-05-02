@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ccff.spring.concept.dao.IProductDao">
+
+    <!--根据产品id获取该产品的库存-->
+    <select id="getProduct" resultType="Product">
+        select * from product where productId = #{productId}
+    </select>
+
+    <!--更新该产品-->
+    <update id="updateProduct" parameterType="Product">
+        update product set productStock=#{productStock} where productId=#{productId}
+    </update>
+
+</mapper>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--依赖注入的第一种方式：采用有参构造器注入-->
+    <bean id="student_Param_construction" class="com.ccff.spring.di.ways.pojo.Student">
+        <constructor-arg name="name" value="学生1" />
+        <constructor-arg index="1" value="男" />
+        <constructor-arg index="2" value="S001" />
+        <constructor-arg index="3" value="24" />
+    </bean>
+    <bean id="student_Param_construction2" class="com.ccff.spring.di.ways.pojo.Student">
+        <constructor-arg name="name" value="学生1" />
+        <constructor-arg name="studentNo" value="S001" />
+    </bean>
+
+    <!--依赖注入的第一种方式：采用无参构造器注入-->
+    <bean id="student_noneParam_construction" class="com.ccff.spring.di.ways.pojo.Student">
+    </bean>
+
+    <!--依赖注入的第二种方式：采用setter方法注入-->
+    <bean id="student_setter" class="com.ccff.spring.di.ways.pojo.Student">
+        <property name="name" value="学生2" />
+        <property name="sex" value="女" />
+        <property name="studentNo" value="S002" />
+        <property name="age" value="23" />
+    </bean>
+
+</beans>
